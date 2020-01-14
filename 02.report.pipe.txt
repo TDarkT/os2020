@@ -9,3 +9,6 @@
 
 # cat /proc/cpuinfo | grep processor
 	processor	: 0
+
+# find *.jpg
+# No file 
