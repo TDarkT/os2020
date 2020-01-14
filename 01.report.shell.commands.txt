@@ -1,0 +1,61 @@
+#echo hello world
+	hello world
+
+#passwd
+	New password:
+	Retype new password:
+
+
+#date
+	Mon Jan 13 19:34:37 PST 2020
+
+#hostname
+	debian
+
+#arch
+	x86_64
+
+#uname -a  
+Linux debian 4.19.0-6-amd64 #1 SMP Debian 4.19.67-2+deb10u1 (2019-09-20) x86_64 GNU/Linux
+
+#dmesg | tail -n 10
+	[   15.701653] [drm:vmw_host_log [vmwgfx]] *ERROR* Failed to send host log message.
+	[   15.707020] [drm:vmw_host_log [vmwgfx]] *ERROR* Failed to send host log message.
+	[   15.711349] fbcon: svgadrmfb (fb0) is primary device
+	[   15.714871] Console: switching to colour frame buffer device 100x37
+	[   15.715695] [drm] Initialized vmwgfx 2.15.0 20180704 for 0000:00:02.0 on minor 0
+	[   16.351961] Adding 522236k swap on /dev/sda5.  Priority:-2 extents:1 across:522236k FS
+	[   16.808795] IPv6: ADDRCONF(NETDEV_UP): enp0s3: link is not ready
+	[   16.815379] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+	[   16.815751] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+	[   17.084215] snd_intel8x0 0000:00:05.0: white list rate for 1028:0177 is 48000
+#uptime
+ 	19:40:46 up 23 min,  1 user,  load average: 0.00, 0.00, 0.00
+#who am i
+	root     tty1         Jan 13 19:18
+#whoami
+	root
+#who
+	root     tty1         Jan 13 19:18
+#id
+	uid=0(root) gid=0(root) groups=0(root)
+#last
+	root     tty1                          Mon Jan 13 19:18   still logged in
+	reboot   system boot  4.19.0-6-amd64   Mon Jan 13 19:17   still running
+	root     tty1                          Wed Dec 11 20:05 - crash (32+23:11)
+	reboot   system boot  4.19.0-6-amd64   Wed Dec 11 20:04   still running
+	victorch tty1                          Wed Oct 16 01:36 - crash (56+19:28)
+	reboot   system boot  4.19.0-6-amd64   Wed Oct 16 01:35   still running
+	victorch tty1                          Wed Oct 16 01:00 - crash  (00:35)
+	reboot   system boot  4.19.0-6-amd64   Wed Oct 16 00:58   still running
+
+	wtmp begins Wed Oct 16 00:58:46 2019
+
+#finger
+	Login     Name       Tty      Idle  Login Time   Office     Office Phone
+	root      root      *tty1           Jan 13 19:18
+
+#w
+ 	19:42:23 up 25 min,  1 user,  load average: 0.00, 0.00, 0.00
+	USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+	root     tty1     -                19:18    6.00s  0.38s  0.00s w

@@ -1,0 +1,11 @@
+#ls | grep list
+# Empty here
+
+# cat /etc/passwd | wc -l
+	27
+
+# free | grep Mem | awk '{print ($2)}'
+	494948
+
+# cat /proc/cpuinfo | grep processor
+	processor	: 0

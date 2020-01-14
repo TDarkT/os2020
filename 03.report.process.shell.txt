@@ -1,0 +1,51 @@
+#ps aux
+	victorc+   469  0.0  0.6   4000  3316 tty1     S+   03:01   0:00 -bash
+	root       497  0.0  1.6  16632  7972 ?        Ss   03:04   0:00 sshd: root@pts/0
+	root       500  0.0  1.6  21024  8268 ?        Ss   03:04   0:00 /lib/systemd/systemd --user
+	root       501  0.0  0.4  22840  2192 ?        S    03:04   0:00 (sd-pam)
+	root       509  0.0  0.6   3868  3212 pts/0    Ss   03:04   0:00 -bash
+	root       512  0.0  0.6   3992  3332 pts/0    S    03:04   0:00 bash
+	root       569  0.0  0.0      0     0 ?        I    03:25   0:00 [kworker/0:0-ata_sff]
+	root       631  0.0  0.0      0     0 ?        I    03:30   0:00 [kworker/0:2-ata_sff]
+	root       632  0.0  0.5   7640  2672 pts/0    R+   03:32   0:00 ps aux
+	root       633  0.0  0.1   2328   744 pts/0    S+   03:32   0:00 tail -n 10
+
+# Starting new process: cat
+# ps aux | grep cat
+	root       766  0.0  0.1   2436   688 pts/0    S+   03:54   0:00 cat
+
+# cat /proc/766/status
+	Name:	cat
+	Umask:	0022
+	State:	S (sleeping)
+	Tgid:	766
+	Ngid:	0
+	Pid:	766
+	PPid:	512
+	TracerPid:	0
+	Uid:	0	0	0	0
+	Gid:	0	0	0	0
+
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       458  0.0  0.6   6640  3384 tty1     Ss   03:01   0:00 /bin/login -p --
+victorc+   469  0.0  0.6   4000  3316 tty1     S+   03:01   0:00 -bash
+root       509  0.0  0.6   3868  3212 pts/0    Ss   03:04   0:00 -bash
+root       512  0.0  0.6   3992  3332 pts/0    S+   03:04   0:00 bash
+root       653  0.0  0.6   3996  3188 pts/1    Ss   03:37   0:00 -bash
+root       766  0.0  0.1   2436   688 pts/0    T    03:54   0:00 cat
+root       780  0.0  0.5   7640  2688 pts/1    R+   03:58   0:00 ps au
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       458  0.0  0.6   6640  3384 tty1     Ss   03:01   0:00 /bin/login -p --
+victorc+   469  0.0  0.6   4000  3316 tty1     S+   03:01   0:00 -bash
+root       509  0.0  0.6   3868  3212 pts/0    Ss   03:04   0:00 -bash
+root       512  0.0  0.6   3992  3332 pts/0    S+   03:04   0:00 bash
+root       653  0.0  0.6   3996  3220 pts/1    Ss   03:37   0:00 -bash
+root       766  0.0  0.1   2436   688 pts/0    T    03:54   0:00 cat
+root       783  0.0  0.5   7640  2728 pts/1    R+   03:59   0:00 ps au
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       458  0.0  0.6   6640  3384 tty1     Ss   03:01   0:00 /bin/login -p --
+victorc+   469  0.0  0.6   4000  3316 tty1     S+   03:01   0:00 -bash
+root       509  0.0  0.6   3868  3212 pts/0    Ss   03:04   0:00 -bash
+root       512  0.0  0.6   3992  3332 pts/0    S+   03:04   0:00 bash
+root       653  0.0  0.6   3996  3220 pts/1    Ss   03:37   0:00 -bash
+root       785  0.0  0.5   7640  2684 pts/1    R+   03:59   0:00 ps au
