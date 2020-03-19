@@ -1,0 +1,7 @@
+[*] Using "/proc/sched_debug" file
+[*] Command: "cat /proc/sched_debug | grep systemd | awk 'NR==5{print ($5)}'"
+[*] Output: 88
+
+[*] Using pid file
+[*] Command: "ps aux | grep systemd --user | head -n 1 | awk '{system(cat /proc/  /sched)}' | grep nr_switches| awk '{print($3)}'"
+[*] Output: 88
