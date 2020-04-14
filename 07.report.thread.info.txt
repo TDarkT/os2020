@@ -1,0 +1,5 @@
+[*] Number of firefox thread with ps -o nlwp 1851:83
+[*] Using /proc/<processId>/task:
+    command: ls /proc/1851/task/ |wc -l
+    output: 82
+
